@@ -9,19 +9,27 @@ html, body {
 }
 
 /*Navigation bar*/
-.header {
-    display: inline-flex;
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     margin-left: 10px;
 }
 
-.header li {
-list-style: none;
-display: inline-block;
-justify-content: space-around;
-text-align: center;
+.navigation-bar {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    margin-right: 10px;
+
 }
 
 a:link {
@@ -37,20 +45,22 @@ a:visited {
 /*Banner*/
 
 #banner-container {
-  background-image: url('images/people4.jpg');
+  background-image: url('images/people.jpg');
   background-position: center;
-  height: 30rem;
+  height: 30em;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
+  align-items: flex-start;
+  
+  
 }
 
-#banner-container h2 {
-
+#banner-container h1 {
+    color: white;
+    padding: 10px 20px;
+    margin-left: 50px;
+    font-size: 3em;
 }
 
 /*Degrees */
