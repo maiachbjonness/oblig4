@@ -1,6 +1,11 @@
 
 html, body {
-    
+
+}
+
+@@font-face {
+  font-family: "Alternative Gothic";
+  src: url(../font/Gothic/Gothic.otf);
 }
 
 /*Navigation bar*/
@@ -43,10 +48,45 @@ a:visited {
   text-align: center;
 
 }
-    
 
 #banner-container h2 {
 
 }
 
+/*Degrees */
 
+.degrees{
+  display: flex;
+  height: 60vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  background: #979dac;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+.box{
+  font-size: 1.6em;
+  color: black;
+  width: 3 00px;
+  padding: 10px;
+  flex-basis: 25%;
+  height: 40%;
+  flex-grow: 1;
+  line-height: 1.2em;
+  height: auto;
+}
+
+.box li{
+  font-size: 16px;
+  font-family: 'Alternative Gothic';
+}
+
+.box.businessInnovation{
+  background: white;
+}
+
+.box.creationSimulation{
+  background: #0466c8;
+}
