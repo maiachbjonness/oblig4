@@ -1,0 +1,52 @@
+
+html, body {
+    
+}
+
+/*Navigation bar*/
+.header {
+    display: inline-flex;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.header li {
+list-style: none;
+display: inline-block;
+justify-content: space-around;
+text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/*Banner*/
+
+#banner-container {
+  background-image: url('images/people4.jpg');
+  background-position: center;
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+    
+
+#banner-container h2 {
+
+}
+
+
