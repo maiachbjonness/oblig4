@@ -3,7 +3,7 @@ html, body {
 
 }
 
-@@font-face {
+@font-face {
   font-family: "Alternative Gothic";
   src: url(../font/Gothic/Gothic.otf);
 }
@@ -99,4 +99,102 @@ a:visited {
 
 .box.creationSimulation{
   background: #0466c8;
+}
+
+/*Blog posts*/
+
+.blog {
+margin: 30px 0;
+padding-left: 30px;
+padding-bottom: 20px;
+background-color: #002793;
+text-align: center;
+color: white;
+
+ 
+}
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  font-size: 1.5em;
+}
+
+.blog-post1 {
+  background-color: #B0B4BB;
+  flex-basis: 25%;
+}
+
+.blog-post2 {
+  background-color: #B0B4BB;
+  flex-basis: 25%;
+}
+
+.blog-post3 {
+  background-color: #B0B4BB;
+  flex-basis: 25%;
+}
+
+.blog p {
+  text-align: right;
+  color: white;
+  font-size: 1.5em;
+  padding-right: 20px;
+}
+
+/*Contact*/
+
+#contact {
+  margin-left: 30px;
+}
+
+.button1 {
+  background-color: #6B1D0E;
+  border: none;
+  color: white !important;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  float: right;
+  margin-right: 20px;
+}
+
+.button2 {
+  background-color: #6B1D0E;
+  border: none;
+  color: white !important;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  float: right;
+  margin-right: 20px;
+}
+
+.icons {
+  position: absolute;
+  right: 20%;
+}
+
+.icons h2 {
+  text-align: center;
+}
+
+.icons li {
+  list-style: none;
+  display: inline-block;
+  font-size: 2em;
+  padding: 15px;
+  color: black;
+  transition: .5s;
+
+}
+
+.icons li:hover {
+  color: #6B1D0E;
+  border: 1px solid #6B1D0E;
+  transition: .5s;
 }
