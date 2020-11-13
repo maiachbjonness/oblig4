@@ -98,26 +98,36 @@ a:visited {
 
 /*Degrees */
 
+.degrees-heading{
+  text-align: center;
+}
+
 .degrees{
   display: flex;
-  height: 60vh;
-  flex-direction: row;
+  /*height: 60vh;*/
+  /*flex-direction: row;*/
   flex-wrap: wrap;
-  background: #B0B4BB;
-  justify-content: space-between;
-  align-content: space-around;
+  background: white;
+  justify-content: center;
+  align-items: stretch:
+  background: white;
+  gap: 30px;
 }
 
 .box{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
   font-size: 1.6em;
-  width: 3 00px;
-  padding: 10px;
-  flex-basis: 25%;
-  height: 40%;
-  flex-grow: 1;
   line-height: 1.2em;
+  width: 400px;
   height: auto;
   color: black;
+  background: #CDCDCD;
+  box-shadow: 0 0 10px rgba(60, 60, 60, 0.6);
+  align-items: center;
+
 }
 
 .box li{
@@ -125,25 +135,25 @@ a:visited {
   font-family: 'Alternative Gothic';
 }
 
-.box.businessInnovation{
-  background: #B0B4BB;
+@media (max-width: 830px){
+  .box{
+    width: 80%;
+  }
+
 }
 
-.box.creationSimulation{
-  background: #002793;
-  color: white;
-}
+
 
 /*News*/
 
 .news-container {
   background-color: white;
   }
-  
+
   .news-container h1 {
     text-align: center;
   }
-  
+
   .news {
     display: flex;
     flex-wrap: wrap;
@@ -152,7 +162,7 @@ a:visited {
     gap: 30px;
     font-size: 1.5em;
   }
-  
+
  .news-post {
   background: #6B1D0E;
   color: black;
@@ -163,11 +173,11 @@ a:visited {
   flex-direction: column;
   min-height: 100px;
  }
-  
+
   .text {
     margin: 20px;
     background-color:rgba(0, 0, 0, 0.7);
-  
+
   }
 
   .news p {
@@ -213,12 +223,12 @@ background-color: white;
 .text {
   margin: 20px;
   background: rgba(255,255,255,0.6);
-  
-  
+
+
 }
 
 .text h3 {
-  color:#000000; 
+  color:#000000;
   font-weight: bold;
 }
 
