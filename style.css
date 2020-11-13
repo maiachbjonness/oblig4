@@ -52,8 +52,8 @@ a:visited {
   background-size: cover;
   display: flex;
   align-items: flex-start;
-  
-  
+
+
 }
 
 #banner-container h1 {
@@ -70,15 +70,13 @@ a:visited {
   height: 60vh;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 2px solid black;
-  background: #979dac;
+  background: #B0B4BB;
   justify-content: space-between;
   align-content: space-around;
 }
 
 .box{
   font-size: 1.6em;
-  color: black;
   width: 3 00px;
   padding: 10px;
   flex-basis: 25%;
@@ -86,6 +84,7 @@ a:visited {
   flex-grow: 1;
   line-height: 1.2em;
   height: auto;
+  color: black;
 }
 
 .box li{
@@ -94,11 +93,12 @@ a:visited {
 }
 
 .box.businessInnovation{
-  background: white;
+  background: #B0B4BB;
 }
 
 .box.creationSimulation{
-  background: #0466c8;
+  background: #002793;
+  color: white;
 }
 
 /*Blog posts*/
@@ -111,7 +111,7 @@ background-color: #002793;
 text-align: center;
 color: white;
 
- 
+
 }
 
 .blog-posts {
