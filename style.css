@@ -1,6 +1,7 @@
 
 html, body {
-
+  padding: 0;
+  margin: 0;
 }
 
 @font-face {
@@ -9,6 +10,7 @@ html, body {
 }
 
 /*Navigation bar*/
+/*
 .navigation-container {
     display: flex;
     justify-content: space-between;
@@ -41,6 +43,37 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+*/
+
+.navigation-container {
+    display: inline-flex;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.navigation-container li {
+list-style: none;
+display: inline-block;
+justify-content: space-between;
+text-align: center;
+width: 180px;
+margin-top: 45px;
+/*margin-left: 30px;*/
+font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
 
 /*Banner*/
 
@@ -101,47 +134,101 @@ a:visited {
   color: white;
 }
 
+/*News*/
+
+.news-container {
+  background-color: white;
+  }
+  
+  .news-container h1 {
+    text-align: center;
+  }
+  
+  .news {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 1.5em;
+  }
+  
+ .news-post {
+  background: #6B1D0E;
+  color: black;
+  box-sizing: border-box;
+  width: 400px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  min-height: 100px;
+ }
+  
+  .text {
+    margin: 20px;
+    background-color:rgba(0, 0, 0, 0.7);
+  
+  }
+
+  .news p {
+    text-align: right;
+    font-size: 1.25em;
+  }
+
+  .news i {
+    float: right;
+  }
+
 /*Blog posts*/
 
-.blog {
-margin: 30px 0;
-padding-left: 30px;
-padding-bottom: 20px;
-background-color: #002793;
-text-align: center;
-color: white;
-
-
+.blog-container {
+background-color: white;
 }
 
-.blog-posts {
+.blog-container h1 {
+  text-align: center;
+}
+
+.blog {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: stretch;
+  gap: 30px;
   font-size: 1.5em;
 }
 
-.blog-post1 {
-  background-color: #B0B4BB;
-  flex-basis: 25%;
+
+.blog-post {
+  background: #002855;
+  color: black;
+  box-sizing: border-box;
+  width: 400px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  min-height: 100px;
 }
 
-.blog-post2 {
-  background-color: #B0B4BB;
-  flex-basis: 25%;
+.text {
+  margin: 20px;
+  background: rgba(255,255,255,0.6);
+  
+  
 }
 
-.blog-post3 {
-  background-color: #B0B4BB;
-  flex-basis: 25%;
+.text h3 {
+  color:#000000; 
+  font-weight: bold;
+}
+
+.blog i {
+  float: right;
 }
 
 .blog p {
   text-align: right;
-  color: white;
-  font-size: 1.5em;
-  padding-right: 20px;
+  font-size: 1.25em;
 }
 
 /*Contact*/
@@ -176,7 +263,7 @@ color: white;
 
 .icons {
   position: absolute;
-  right: 20%;
+  right: 25%;
 }
 
 .icons h2 {
